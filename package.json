@@ -9,7 +9,8 @@
     "dist": "npm run clear:lib && rollup -c",
     "lint": "eslint --ext .js,.ts ./src",
     "storybook": "start-storybook",
-    "test": "jest"
+    "test": "jest",
+    "np": "np --no-cleanup --no-release-draft"
   },
   "repository": {
     "type": "git",
